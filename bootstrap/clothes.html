@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clothes</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "stylesheet.css" rel = "stylesheet">
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="#" class="navbar-brand">Nike</a>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Home</a></li>
+					<li class="active"><a href="#">Pages</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+						<ul class ="dropdown-menu">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Instagram</a></li>
+						</ul>
+					</li>
+					<li><a href="#">About</a></li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-9">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="page-header">
+						<h1>Nike Shoes</h1>
+					</div>
+					<h2>Nike makes many varieties of clothes for many occasions.  Most of the clothes are athleticware but some can also be used for other things.</h2>
+					<a href="https://store.nike.com/us/en_us/pw/mens-clothing/1mdZ7pu">Click here to see their mens clothing</a>
+					<a href="https://www.nike.com/w/womens-clothing-5e1x6z6ymx6">Click here to see their womens clothing</a>
+					<img class="img-responsive" src="hoodie.jpg" alt="hoodie">
+					<img class="img-responsive" src="shirt.jpg" alt="shirt">
+					<img class="img-responsive" src="shorts.jpg" alt="shorts">
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3">
+			<div class="list-group">
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Nike Shoes</h4>
+					<p class="list-group-item-text">The page about the shoes made by Nike</p>
+				</a>
+				<a href="#" class="list-group-item active">
+					<h4 class="list-group-item-heading">Nike Clothes</h4>
+					<p class="list-group-item-text">The page about the clothes made by Nike</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Nike Equipment</h4>
+					<p class="list-group-item-text">The page about the equipment made by Nike</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Nike Endorsements</h4>
+					<p class="list-group-item-text">The page about the endorsements that Nike has made</p>
+				</a>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+
+
+
+
+
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text pull-left">Site built by Akshay</p>
+			<a href="#" class="navbar-btn btn-danger btn pull-right">Subscribe on YouTube Now</a>
+		</div>
+	</div>
+
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form class="modal-header">
+				<div class="modal-header">
+					<h4>Contact Us</h4>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<label for="contact-name" class="col-lg-2" control-label>Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="contact-email" class="col-lg-2" control-label>Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="contact-msg" class="col-lg-2" control-label>Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows=8></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-default" data-dismiss="modal">Close</a>
+					<button class="btn btn-primary" type="submit">Send</button>
+				</div>
+			</form>
+			</div>	
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

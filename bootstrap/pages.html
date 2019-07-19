@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pages</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "stylesheet.css" rel = "stylesheet">
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="#" class="navbar-brand">Nike</a>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Home</a></li>
+					<li class="active"><a href="#">Pages</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+						<ul class ="dropdown-menu">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Instagram</a></li>
+						</ul>
+					</li>
+					<li><a href="#">About</a></li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class = "container">
+		<div class="row">
+			<div class="col-md-3">
+				<h3><a href="#">Nike Shoes</a></h3>
+				<img class="img-responsive" src="shoee.jpg" alt="shoee">
+				<p>They have shoes for every sport such as soccer, basketball, football, tennis and many more</p>
+				<a href="#" class="btn btn-default">Read More</a>
+			</div>	
+			<div class="col-md-3">
+				<h3><a href="#">Nike Clothes</a></h3>
+				<img class="img-responsive" src="shiirt.jpg" alt="shiirt">
+				<p>They have clothes for every sport and have clothes from athletes, they have t-shirts, pants, shorts, hoodies and many more</p>
+				<a href="#" class="btn btn-default">Read More</a>
+			</div>
+			<div class="col-md-3">
+				<h3><a href="#">Nike Equipment</a></h3>
+				<img class="img-responsive" src="baag.jpg" alt="baag">
+				<p>They have lots of different types of equipment for various sports</p>
+				<a href="#" class="btn btn-default">Read More</a>
+			</div>
+			<div class="col-md-3">
+				<h3><a href="#">Nike Endorsements</a></h3>
+				<img class="img-responsive" src="jordan.png" alt="jordan">
+				<p>They have contracts with the top athletes in sports such as Lebron James, Kevin Durant, Cristiano Ronaldo, Serena Williams and many others</p>
+				<a href="#" class="btn btn-default">Read More</a>
+			</div>			
+		</div>
+
+
+	</div>
+
+
+
+
+
+
+
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text pull-left">Site built by Akshay</p>
+			<a href="#" class="navbar-btn btn-danger btn pull-right">Subscribe on YouTube Now</a>
+		</div>
+	</div>
+
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form class="modal-header">
+				<div class="modal-header">
+					<h4>Contact Us</h4>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<label for="contact-name" class="col-lg-2" control-label>Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="contact-email" class="col-lg-2" control-label>Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="contact-msg" class="col-lg-2" control-label>Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows=8></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-default" data-dismiss="modal">Close</a>
+					<button class="btn btn-primary" type="submit">Send</button>
+				</div>
+			</form>
+			</div>	
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
